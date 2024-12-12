@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Suggestions </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        .button-container {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        .button {
+            width: 100px;
+            height: 100px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 10px;
+            margin: 10px;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #2980b9;
+        }
+        .section {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .movie-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .movie-item {
+            margin-bottom: 15px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 15px;
+        }
+        .movie-item:last-child {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <a href="#main" class="button">الرئيسية</a>
+        <a href="#comedy" class="button">كوميدي</a>
+        <a href="#action" class="button">أكشن</a>
+        <a href="#romance" class="button">رومانسي</a>
+        <a href="#horror" class="button">رعب</a>
+    </div>
+
+    <div id="main" class="section">
+        <h1>مرحبًا بك في موقع اقتراح الأفلام </h1>
+        <p>اكتشف مجموعة رائعة من الأفلام الأجنبية المميزة. اختر نوع الفيلم الذي ترغب في استكشافه من الأزرار أعلاه. لكل نوع، نقدم لك خمسة اقتراحات لأفلام مميزة.</p>
+    </div>
+
+    <div id="comedy" class="section">
+        <h2>أفلام كوميدية </h2>
+        <ul class="movie-list">
+            <li class="movie-item">
+                <h3>The Hangover (2009)</h3>
+                <p>كوميديا أمريكية عن مجموعة من الأصدقاء في رحلة عزوبية تتحول إلى سلسلة من المغامرات الجنونية في لاس فيغاس.</p>
+            </li>
+            <li class="movie-item">
+                <h3>Bridesmaids (2011)</h3>
+                <p>كوميديا نسائية عن صديقة العروس وتجاربها المضحكة في التحضير لحفل زفاف صديقتها.</p>
+            </li>
+            <li class="movie-item">
+                <h3>Superbad (2007)</h3>
+                <p>كوميديا مراهقين عن صديقين يحاولان الاستمتاع بآخر أيام المدرسة الثانوية.</p>
+            </li>
+            <li class="movie-item">
+                <h3>Anchorman: The Legend of Ron Burgundy (2004)</h3>
+                <p>كوميديا ساخرة عن مذيع أخبار شهير يواجه تحديات مع وصول زميلة جديدة إلى القناة.</p>
+            </li>
+            <li class="movie-item">
+                <h3>Shaun of the Dead (2004)</h3>
+                <p>كوميديا بريطانية تمزج بين الرعب والضحك، حيث يواجه بطل الفيلم غزو الزومبي.</p>
+            </li>
+        </ul>
+    </div>
+
+    <div id="action" class="section">
+        <h2>أفلام أكشن </h2>
+        <ul class="movie-list">
+            <li class="movie-item">
+                <h3>Inception (2010)</h3>
+                <p>فيلم أكشن وخيال علمي عن فريق يدخل أحلام الآخرين لسرقة أفكارهم.</p>
+            </li>
+            <li class="movie-item">
+                <h3>Mad Max: Fury Road (2015)</h3>
+                <p>ملحمة أكشن ما بعد نهاية العالم في صحراء قاحلة مع مطاردات سيارات مثيرة.</p>
+
+
+</li>
+            <li class="movie-item">
+                <h3>The Dark Knight (2008)</h3>
+                <p>فيلم بطل خارق يواجه فيه باتمان عدوه اللدود الجوكر في مدينة غوثام.</p>
+            </li>
+            <li class="movie-item">
+                <h3>John Wick (2014)</h3>
+                <p>قصة انتقام قاتل محترف متقاعد يعود للعمل بعد مقتل كلبه.</p>
+            </li>
+            <li class="movie-item">
+                <h3>Mission: Impossible - Fallout (2018)</h3>
+                <p>مغامرة جاسوسية مليئة بالحركة مع توم كروز في دور العميل إيثان هانت.</p>
+            </li>
+        </ul>
+    </div>
+
+    <div id="romance" class="section">
+        <h2>أفلام رومانسية </h2>
+        <ul class="movie-list">
+            <li class="movie-item">
+                <h3>The Notebook (2004)</h3>
+                <p>قصة حب كلاسيكية بين شاب وفتاة من طبقتين اجتماعيتين مختلفتين في الأربعينيات.</p>
+            </li>
+            <li class="movie-item">
+                <h3>La La Land (2016)</h3>
+                <p>موسيقي رومانسي عن علاقة بين ممثلة طموحة وعازف جاز في لوس أنجلوس.</p>
+            </li>
+            <li class="movie-item">
+                <h3>Pride and Prejudice (2005)</h3>
+                <p>اقتباس لرواية جين أوستن الكلاسيكية عن الحب والزواج في إنجلترا القرن 19.</p>
+            </li>
+            <li class="movie-item">
+                <h3>Eternal Sunshine of the Spotless Mind (2004)</h3>
+                <p>دراما رومانسية غير تقليدية عن زوجين يمحوان ذكرياتهما عن بعضهما البعض.</p>
+            </li>
+            <li class="movie-item">
+                <h3>Before Sunrise (1995)</h3>
+                <p>قصة لقاء عفوي بين شاب أمريكي وفتاة فرنسية في فيينا يقضيان ليلة واحدة معًا.</p>
+            </li>
+        </ul>
+    </div>
+
+    <div id="horror" class="section">
+        <h2>أفلام رعب </h2>
+        <ul class="movie-list">
+            <li class="movie-item">
+                <h3>The Conjuring (2013)</h3>
+                <p>قصة حقيقية عن زوجين يحققان في أحداث خارقة للطبيعة في منزل مسكون.</p>
+            </li>
+            <li class="movie-item">
+                <h3>Get Out (2017)</h3>
+                <p>رعب نفسي واجتماعي عن شاب أسود يزور عائلة صديقته البيضاء ويكتشف أسرارًا مروعة.</p>
+            </li>
+            <li class="movie-item">
+                <h3>A Quiet Place (2018)</h3>
+                <p>رعب ما بعد نهاية العالم عن عائلة تحاول البقاء على قيد الحياة في عالم تسكنه مخلوقات تصطاد بالصوت.</p>
+            </li>
+            <li class="movie-item">
+                <h3>The Shining (1980)</h3>
+                <p>كلاسيكية رعب نفسي لستانلي كوبريك عن عائلة تقيم في فندق معزول ومسكون.</p>
+            </li>
+            <li class="movie-item">
+                <h3>Hereditary (2018)</h3>
+                <p>دراما رعب نفسي عن عائلة تواجه قوى شريرة بعد وفاة جدتهم.</p>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

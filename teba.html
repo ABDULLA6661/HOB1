@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHOTOGRAPHER TEEBA </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="hero">
+        <div class="overlay">
+            <h1>teeba صفحة المصور</h1>
+            <p>تصوير احترافي ولحظات لا تُنسى</p>
+            <a href="#gallery" class="btn">استعر</a>
+        </div>
+		
+    </header>
+	  <style>
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: #1a1a2e;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.hero {
+    background: url('https://via.placeholder.com/1200x600') no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 128, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+.btn {
+    text-decoration: none;
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+
+#about, #services, #testimonials, #contact {
+    padding: 50px 20px;
+    background: #162447;
+}
+
+#about h2, #services h2, #testimonials h2, #contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#about p, #testimonials p {
+    font-size: 1.2rem;
+}
+
+
+.services-list {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2rem;
+}
+
+.services-list li {
+    margin: 10px 0;
+}
+
+
+#gallery {
+    padding: 50px 20px;
+    background: #1f4068;
+}
+
+#gallery h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.photo-box {
+    width: 200px;
+    height: 150px;
+    background: #007bff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.testimonial {
+    background: #1a1a2e;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    text-align: left;
+}
+
+
+footer {
+    background: #0f3460;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9rem;
+}
+  </style>
+    <section id="about">
+        <div class="container">
+            <h1>TEEBA </h1>
+            <p>تصوير ااحترافي وسعر مناسبة.</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>الخدمات</h2>
+            <ul class="services-list">
+                <li>📸 جلسات تصوير فردية وعائلية</li>
+                <li>🎉 تغطية حفلات الزفاف والمناسبات</li>
+                <li>🏞️ تصوير المناظر الطبيعية والسفر</li>
+                <li>💼 تصوير المنتجات التجارية</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <div class="container">
+            <h2>معرض الصور</h2>
+            <div class="gallery-grid">
+                <div class="photo-box">1</div>
+                <div class="photo-box">2</div>
+                <div class="photo-box">4</div>
+                <div class="photo-box">3</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="container">
+            <h2>آراء العملاء</h2>
+            <div class="testimonial">
+                <p>"جلسة جدا جميلة "</p>
+                <p>- أحمد</p>
+            </div>
+            <div class="testimonial">
+                <p>"كادر مميز"</p>
+                <p>- سارة</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>تواصل معي</h2>
+            <p>مكنكم التواص:</p>
+            <ul>
+                <li>البريد الإلكتروني: <a href="mailto:123456@example.com">photographer@example.com</a></li>
+              
+                <li>تابعني على: 
+                    <a href="https://instagram.com" target="_blank">إنستغرام</a> | 
+                    <a href="https://facebook.com" target="_blank">فيسبوك</a> | 
+                   
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+       
+    </footer>
+</body>
+</html>
